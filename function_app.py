@@ -20,7 +20,7 @@ def func_testinggithubactions(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "This HTTP triggered function executed successfully yeey. Pass a name in the query string or in the request body for a personalized response.",
+             "Hello",
              status_code=200
         )
 
